@@ -1,0 +1,8 @@
+<div class = "containaer">
+  <h1>Stupid Coaching</h1>
+  <p class = "alert alert-secundary"><%= params[:question] %>
+    <br> <em>-You</p>
+  <p class = "alert alert-warning"><strong><%= @answer %></strong>
+    <br> <em>-Your coach</p>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
